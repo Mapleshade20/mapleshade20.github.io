@@ -1,0 +1,55 @@
+baseURL: https://maplewrt.com/
+title: MapleWrt
+theme: ["PaperMod"]
+
+defaultContentLanguage: 中
+defaultContentLanguageInSubdir: false
+disableDefaultLanguageRedirect: false
+languages:
+  中:
+    contentDir: content
+    languageCode: zh-CN
+    languageName: Chinese Simplified
+    weight: 3
+  en:
+    contentDir: content/en
+    languageCode: en-US
+    languageName: English
+    weight: 2
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: MapleWrt
+  description: "be free and unafraid"
+  keywords: [Blog, Portfolio, MapleShade]
+  author: Maple
+  defaultTheme: auto
+
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+
+  assets:
+    favicon: "favicon.ico"
+    # favicon16x16: "<link / abs url>"
+    # favicon32x32: "<link / abs url>"
+    # apple_touch_icon: "<link / abs url>"
+    # safari_pinned_tab: "<link / abs url>"
+
+  # label:
+  #   text: "Home"
+  #   icon: /apple-touch-icon.png
+  #   iconHeight: 35
+
+  # home-info mode
+  homeInfoParams:
+    Title: "MapleWrt 😉 ¡Hola!"
+    Content: I know it's hard to start the car; one day you'll be glad you did.
